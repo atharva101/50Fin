@@ -29,7 +29,6 @@ const UserList = () => {
         setUsers(json);
         setFilteredUsers(json);
       });
-    console.log(users);
   }, []);
 
   return (

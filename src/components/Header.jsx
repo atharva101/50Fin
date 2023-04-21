@@ -2,22 +2,6 @@ import React, {useState} from "react";
 import SearchBox from "./SearchBox";
 import Modal from "./Modal";
 const Header = ({ setSearchQuery , setFilteredUsers, filteredUsers}) => {
-//   function handleFunction() {
-//     fetch("https://jsonplaceholder.typicode.com/users", {
-//       method: "POST",
-//       body: JSON.stringify({
-//         name: "atharva",
-//       }),
-//       headers: {
-//         "Content-type": "application/json; charset=UTF-8",
-//       },
-//     })
-//       .then((response) => response.json())
-//       .then((json) => {
-//         setUsers([...filteredUsers, json]);
-//         console.log(users);
-//       });
-//   }
 
 const [isOpen,setIsOpen] = useState(false)
 

@@ -27,7 +27,7 @@ const Modal = ({ isOpen, setIsOpen, setFilteredUsers, filteredUsers }) => {
       })
         .then((response) => response.json())
         .then((json) => {
-          console.log(json);
+        //  console.log(json);
           setFilteredUsers([...filteredUsers,json])
           setIsOpen(false)
           alert('User added successfully')
